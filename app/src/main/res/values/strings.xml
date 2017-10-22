@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Senku Karlos</string>
+    <string name="txtSinImplementar">¡No implementado aún!</string>
+    <string name="txtReiniciarPartida">Nuevo Juego</string>
+    <string name="txtOpcionGuardar">Guardar partida</string>
+    <string name="txtOpcionRecuperar">Recuperar partida</string>
+    <string name="txtOpcionMejoresResultados">Mejores Resultados</string>
+
+    <!-- Diálogo Reiniciar -->
+    <string name="txtDialogRestartTitle">Reiniciar partida</string>
+    <string name="txtDialogRestartQuestion">¿Reiniciar partida?</string>
+    <!-- Diálogo Final -->
+    <string name="txtDialogoFinalTitulo">Fin del juego</string>
+    <string name="txtDialogoFinalPregunta">¿Otra partida?</string>
+    <string name="txtDialogoFinalAfirmativo">Sí</string>
+    <string name="txtDialogoFinalNegativo">No</string>
+
+    <!-- Acerca de -->
+    <string name="aboutText">Acerca del Solitario</string>
+    <string name="aboutMessage">El juego consiste en ir comiendo piezas (en horizontal o en vertical) hasta conseguir que sólo quede una pieza en el centro. En cada movimiento, la pieza puede saltar solo una pieza. https://es.wikipedia.org/wiki/Senku</string>
+
+    <!-- Preferencias -->
+    <string name="prefTituloCategoria1">Jugador</string>
+    <string name="prefTituloNombreJugador">Nombre</string>
+    <string name="prefTextoNombreJugador">Pulse para teclear el nombre</string>
+    <string name="prefTituloCategoria2">Ajustes</string>
+    <string name="preferencesText">Ajustes</string>
+    <string name="settingsUsername">nombreJugador</string>
+    <string name="settingsUsernameDefault">Anónimo</string>
+
+    <!-- File names -->
+    <string name="savedGame">savedGame</string>
+    <string name="scores">scores</string>
+
+    <!-- Save and Load Game -->
+    <string name="saveGameException">Error al guardar partida</string>
+    <string name="saveGameSuccess">Partida guardada correctamente</string>
+    <string name="loadGameException">No exite ningún juegos guardado</string>
+    <string name="loadGameSuccess">Partida cargada correctamente</string>
+
+    <!-- Scores -->
+    <string name="saveScoreException">Error al guardar la puntuación</string>
+    <string name="loadScoreException">No existen puntuaciones guardadas</string>
+    <string name="showResults">Resultados</string>
+
+</resources>

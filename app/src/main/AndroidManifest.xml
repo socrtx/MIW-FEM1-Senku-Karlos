@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.upm.miw.karlos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_upm_karlos"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="es.upm.miw.karlos.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.upm.miw.karlos.AcercaDe"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="@string/aboutText" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.upm.miw.karlos.ShowResults"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="@string/showResults" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.upm.miw.karlos.SCeltaPrefs"
+            android:label="@string/preferencesText" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        </application>
+
+</manifest>
